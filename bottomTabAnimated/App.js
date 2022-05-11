@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View,TouchableOpacity } from 'react-native';
-import TabNav from './componants/TabNav';
+import DrawerNav from './componants/navigation/DrawerNav'; 
 
 export default function App() {
   return (
     
-     <TabNav/>
+     <DrawerNav/>
   
   );
 }
